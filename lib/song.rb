@@ -24,4 +24,5 @@ class Song
     song = self.new
     song.all.include?(name)
     song
+  end
 end
