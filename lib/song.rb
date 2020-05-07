@@ -24,6 +24,7 @@ class Song
     song = self.new
     song.name = name
     Song.all.include?(song)
-    song.save
+    @all << song
+    song
   end
 end
