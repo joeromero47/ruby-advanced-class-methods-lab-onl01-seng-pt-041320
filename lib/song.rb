@@ -22,7 +22,7 @@ class Song
   
   def self.create_by_name(name)
     song = self.new
-    Song.all.include?(name)
+    Song.all.include?(song)
     song.save
   end
 end
