@@ -37,7 +37,7 @@ class Song
   end
   
   def self.alphabetical(name)
-    self.alphabetical
+    @@all.alphabetical
     song
   end
 end
